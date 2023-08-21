@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  width: 800px;
+  margin: 10px auto;
+  border: 1px solid #e3e3e3;
+  padding: 10px;
+  height: 500px;
+  overflow-y: auto;
+}
+
+.item {
+  background-color: #e3e3e3;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.loading {
+  text-align: center;
+}
